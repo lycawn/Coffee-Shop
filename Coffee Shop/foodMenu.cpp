@@ -9,7 +9,7 @@ using namespace std;
 void foodList::foodMenu()
 {
 	ofstream foodList;
-	vector<string> foodMenu =
+	vector<string> foodMenus =
 	{
 		"Ham sandwich",
 		"Cheese Pie",
@@ -18,8 +18,9 @@ void foodList::foodMenu()
 		"Vanilla Donut",
 		"Bueno Donut"
 	};
+
 	foodList.open("foodList.txt");
-	for (auto val : foodMenu)
+	for (auto val : foodMenus)
 	{
 
 		foodList << " " <<  val << endl;

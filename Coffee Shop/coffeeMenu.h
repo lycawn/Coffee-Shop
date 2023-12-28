@@ -1,6 +1,5 @@
 #pragma once
 #include <vector>
-#include <string>
 
 namespace N
 
@@ -9,5 +8,7 @@ namespace N
 	{
 	public:
 		void coffeeMenu();
+		void administratorPage();
+
 	};
 }

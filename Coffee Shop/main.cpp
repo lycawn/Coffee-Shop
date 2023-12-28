@@ -3,15 +3,14 @@
 #include "coffeeOrder.h"
 #include "foodMenu.h"
 
+
 using namespace N;
 using namespace std;
 int main()
 {
 
-	
-
-	coffeTypes mc;
-	mc.coffeeMenu();
+	coffeTypes().administratorPage();
+	coffeTypes().coffeeMenu();
 	foodList().foodMenu();
 	orderCoffe().coffeeOrder();
 

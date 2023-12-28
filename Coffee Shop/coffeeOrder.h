@@ -1,5 +1,5 @@
 #pragma once
-
+#include <vector>
 
 namespace N
 
@@ -9,6 +9,7 @@ namespace N
 	public:
 		void coffeeOrder();
 		void orderAddress();
+
 	};
 }
 const double deliveryCost = 1.5;
