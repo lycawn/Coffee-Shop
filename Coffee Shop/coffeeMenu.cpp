@@ -68,6 +68,7 @@ void coffeTypes::administratorPage()
 				if (userInput != userName && passwordInput != password) {
 					cout << "wrong user name or password please try again.." << endl;
 				}
+			
 		} while (userInput != userName && passwordInput != password);
 
 			cout << "[1]Add Coffee [2] Add Food" << endl;

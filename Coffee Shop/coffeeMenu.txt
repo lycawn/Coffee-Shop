@@ -4,4 +4,4 @@
  Freddo Capuccino
  Espresso
  Water
- Testing coffee
+ Coffee test
